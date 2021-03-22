@@ -7,25 +7,18 @@ import NotFound from "./components/pages/NotFound";
 import Home from "./components/pages/Home";
 
 
-
-
-
-
-
-
 function App() {
     return (
         <>
             <Header />
-        <div className="content">
-            <Router>
-                <Switch>
-                    <Route exact={true} path="/" component={Home}/>
-                    <Route component={NotFound}/>
-                </Switch>
-            </Router>
-
-        </div>
+            <div className="content">
+                <Router>
+                    <Switch>
+                        <Route exact={true} path="/" component={Home}/>
+                        <Route component={NotFound}/>
+                    </Switch>
+                </Router>
+            </div>
         </>
 
     );

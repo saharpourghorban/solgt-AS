@@ -4,6 +4,7 @@ import CedarMaps from '@cedarstudios/react-cedarmaps'
 import sidebarList from "../../json.json";
 import contactImage from "../../assets/images/avatar3.jpg";
 import markerIcon from "../../assets/images/marker-icon.png";
+
 const Home = () => {
     let [sidebarId, setSidebarId] = useState(0);
 
@@ -31,7 +32,7 @@ const Home = () => {
     return (
 
         <>
-
+            {/* Users list */}
             <div className="sidebar">
                 <ul>
                     {sidebarList.map((item, index) => (
@@ -51,12 +52,11 @@ const Home = () => {
                     ))}
                 </ul>
             </div>
-            <div className="main">
 
+            {/* Container */}
+            <div className="main">
                 {
                     <div>
-
-
                         <div className="arrow-steps-box">
 
                             <div className="arrow-steps  ">
@@ -75,11 +75,10 @@ const Home = () => {
                                 <div className={getIndex(item.status) < 6 ? "step " : "step current"}>
                                     <span> Completed</span></div>
                             </div>
-
-
                         </div>
                         <div className="informationBox">
                             <div className="homeImage">
+                                {/* get random img */}
                                 <img src={homes[Math.floor(Math.random() * homes.length)]}
                                      alt="homeImage"/>
                             </div>
@@ -92,6 +91,7 @@ const Home = () => {
                                 <p className="detail6">{item.kundeaksjonspunkt}</p>
                                 <button className="defualt-btn">next step</button>
                             </div>
+                            {/* Map */}
                             <div className="mapBox">
                                 <CedarMaps
                                     containerStyle={{
