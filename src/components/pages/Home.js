@@ -80,7 +80,7 @@ const Home = () => {
                         </div>
                         <div className="informationBox">
                             <div className="homeImage">
-                                <img src={"http://localhost:3000/" + homes[Math.floor(Math.random() * homes.length)]}
+                                <img src={homes[Math.floor(Math.random() * homes.length)]}
                                      alt="homeImage"/>
                             </div>
                             <div className="information">

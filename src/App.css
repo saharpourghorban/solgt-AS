@@ -36,7 +36,7 @@ ul{
 
 }
 .header .logo-box{
-width: 60px;
+width: 80px;
 }
 .header .logo-box img{
 width: 100%;
@@ -102,15 +102,10 @@ width: 100%;
 .sidebar .item{
   display: flex;
   align-items: center;
-
-
-
   padding: 9px 3px;
   background: white;
   margin: 5px;
   border-left: 3px solid #11d395;
-
-
 }
 .sidebar .item .img-box{
   margin-right: 10px;
@@ -119,6 +114,7 @@ width: 100%;
   display: flex;
   font-size: 13px;
   flex-direction: column;
+  cursor: pointer;
 }
 .sidebar li.active .item{
   background-color: #11d395;
