@@ -120,6 +120,10 @@ width: 100%;
   background-color: #11d395;
   color: white;
 }
+.f-name {
+  font-size: initial;
+  font-weight: bold;
+}
 /*sidebar*/
 
 
