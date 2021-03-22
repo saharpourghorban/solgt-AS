@@ -1,4 +1,5 @@
 - Run this command to start the project (I used Yarn as the package manager): 
+- 
     yarn install 
     yarn start
 
