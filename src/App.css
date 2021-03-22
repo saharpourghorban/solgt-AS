@@ -1,0 +1,257 @@
+body{
+  margin: 0;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.defualt-btn{
+  background-color: #104fed;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  border: none;
+
+
+}
+/*header*/
+
+.header{
+  width: 100%;
+  height: 60px;
+  position: relative;
+  background-color: #03d960;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+
+}
+.header .logo-box{
+width: 60px;
+}
+.header .logo-box img{
+width: 100%;
+}
+.header .userIconBox i{
+  font-size: 20px;
+  color: white;
+}
+.header .userIconBox span{
+  color: white;
+  font-size: 13px;
+  margin-right: 6px;
+}
+/*header*/
+.content{
+  display: flex;
+  padding: 20px 40px;
+  background-color: #ebeee7;
+}
+.content .main{
+  flex: 1;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  border-left: 3px solid #11d395;
+}
+
+/*sidebar*/
+.sidebar{
+  width: 200px;
+  height: calc(100vh - 100px);
+  overflow: auto;
+  float: left;
+}
+.sidebar:hover::-webkit-scrollbar {
+  display: block;
+}
+.sidebar::-webkit-scrollbar {
+  width: 3px;
+  opacity: 0;
+  display: none;
+}
+
+/* Track */
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.sidebar::-webkit-scrollbar-thumb {
+  background: #c3c3c3;
+}
+
+/* Handle on hover */
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.sidebar li img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.sidebar .item{
+  display: flex;
+  align-items: center;
+
+
+
+  padding: 9px 3px;
+  background: white;
+  margin: 5px;
+  border-left: 3px solid #11d395;
+
+
+}
+.sidebar .item .img-box{
+  margin-right: 10px;
+}
+.sidebar .item .info{
+  display: flex;
+  font-size: 13px;
+  flex-direction: column;
+}
+.sidebar li.active .item{
+  background-color: #11d395;
+  color: white;
+}
+/*sidebar*/
+
+
+
+
+/*step by step*/
+
+.arrow-steps-box{
+  overflow: hidden;
+  padding: 10px;
+}
+.arrow-steps .step {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  cursor: default;
+  margin: 3px;
+  padding: 11.6px 5px 11px 26px;
+  /* min-width: 163px; */
+  float: left;
+  position: relative;
+  background-color: #c9c9c9;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: background-color 0.2s ease;
+}
+
+.arrow-steps .step:after,
+.arrow-steps .step:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: -17px;
+  width: 0;
+  height: 0;
+  border-top: 19px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 17px solid #c9c9c9;
+  z-index: 2;
+  transition: border-color 0.2s ease;
+}
+
+.arrow-steps .step:before {
+  right: auto;
+  left: 0;
+  border-left: 17px solid white;
+  z-index: 0;
+}
+
+.arrow-steps .step:first-child:before {
+  border: none;
+}
+
+.arrow-steps .step:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.arrow-steps .step span {
+  position: relative;
+}
+
+.arrow-steps .step span:before {
+  opacity: 0;
+  content: "✔";
+  position: absolute;
+  top: -2px;
+  left: -20px;
+}
+
+.arrow-steps .step.done span:before {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease 0.5s;
+  -moz-transition: opacity 0.3s ease 0.5s;
+  -ms-transition: opacity 0.3s ease 0.5s;
+  transition: opacity 0.3s ease 0.5s;
+}
+
+.arrow-steps .step.current {
+  color: #fff;
+  background-color: #00d792;
+}
+
+.arrow-steps .step.current:after {
+  border-left: 17px solid #00d792;
+}
+/*step by step*/
+  .img-box img{
+  width: 100%;
+
+}
+.informationBox{
+  display: flex;
+  align-items: self-end;
+
+  flex-wrap: wrap;
+}
+.informationBox .information{
+  padding: 0 20px;
+}
+.informationBox .information .detail1{
+ background-color: #03d960;
+  padding: 5px;
+  color: white;
+  margin-top: 0;
+  position: relative;
+}
+.informationBox .information .detail1:after{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  display: block;
+  right: -8px;
+  top: 0;
+  -ms-transform: skewX(-30deg);
+  transform: skewX(
+          -30deg
+  );
+}
+.informationBox > div{
+  flex:1;
+  min-width: 220px;
+  margin: 15px 5px;
+}
+
+.informationBox .homeImage img , .mapBox img{
+  width: 100%; border-radius: 10px;
+
+}

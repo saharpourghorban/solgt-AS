@@ -1,0 +1,90 @@
+[
+  {
+    "adresse": "Vibes gate 9B, 0356 Oslo",
+    "navn": "Marit Eva Haga",
+    "prom": 36,
+    "etasje": 1,
+    "soverom": 3,
+    "lat": 59.926402,
+    "lon": 10.723309,
+    "status": "Venter på tilbud",
+    "kundeaksjonspunkt": null
+  },
+  {
+    "adresse": "Pilestredet park 11A, 0176 Oslo",
+    "navn": "Adrian Friis",
+    "prom": 71,
+    "etasje": 6,
+    "soverom": 2,
+    "lat": 59.922130,
+    "lon": 10.740880,
+    "status": "Tilbud opprettet",
+    "kundeaksjonspunkt": "Se over og gå videre med tilbud"
+  },
+  {
+    "adresse": "St. Jørgens vei 14, 0662 Oslo",
+    "navn": "Tove Sand",
+    "prom": 51,
+    "etasje": 1,
+    "soverom": 2,
+    "lat": 59.922470,
+    "lon": 10.797270,
+    "status": "Tilbud akseptert",
+    "kundeaksjonspunkt": "Book befaring"
+  },
+  {
+    "adresse": "Uranienborgveien 11A, 0351 Oslo",
+    "navn": "Per Erland Åsheim",
+    "prom": 29,
+    "etasje": 3,
+    "soverom": 0,
+    "lat": 59.920760,
+    "lon": 10.725500,
+    "status": "Venter på endelig tilbud",
+    "kundeaksjonspunkt": null
+  },
+  {
+    "adresse": "Åslandhellinga 151, 1274 Oslo",
+    "navn": "Per Aspaas",
+    "prom": 65,
+    "etasje": 2,
+    "soverom": 2,
+    "lat": 59.822500,
+    "lon": 10.843900,
+    "status": "Endelig tilbud opprettet",
+    "kundeaksjonspunkt": "Godta endelig til bud og planlegg overtagelsesdato"
+  },
+  {
+    "adresse": "Gunnar Schjelderups vei 13 E, 0485 Oslo",
+    "navn": "Leif Petterson",
+    "prom": 55,
+    "etasje": 6,
+    "soverom": 2,
+    "lat": 59.950540,
+    "lon": 10.775550,
+    "status": "Venter på overtagelse",
+    "kundeaksjonspunkt": "Fyll ut egenerklæringsskjema"
+  },
+  {
+    "adresse": "Oskar Braatens gate 5, 0474 Oslo",
+    "navn": "Aud Jørgensen",
+    "prom": 79,
+    "etasje": 4,
+    "soverom": 2,
+    "lat": 59.932827,
+    "lon": 10.76077,
+    "status": "Venter på overtagelse",
+    "kundeaksjonspunkt": "Signer kontrakter"
+  },
+  {
+    "adresse": "Turbinveien 5, 0195 Oslo",
+    "navn": "Laila Helene Roland",
+    "prom": 28,
+    "etasje": 1,
+    "soverom": 1,
+    "lat": 59.903871,
+    "lon": 10.787399,
+    "status": "Avsluttet",
+    "kundeaksjonspunkt": null
+  }
+]
